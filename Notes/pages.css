@@ -1,0 +1,21 @@
+.item {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 3px;
+}
+
+.item.img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.item.active {
+    display: block;
+}

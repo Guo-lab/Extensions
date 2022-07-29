@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Take Notes",
+    "version": "1.0",
+
+    "description": "Write Down Ideas!",
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "storage",
+
+        "activeTab", 
+        "scripting"
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/icons8-note-64.png"
+    }
+}
